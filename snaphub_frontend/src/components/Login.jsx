@@ -13,7 +13,7 @@ const Login = () => {
   const responseGoogle = (response) => {
     // console.log(response);
     var token = jwt_decode(response.credential);
-    console.log(token);
+    // console.log(token);
     localStorage.setItem("user", JSON.stringify(token));
     //accessing data from jwt
     const { name, sub, picture } = token;

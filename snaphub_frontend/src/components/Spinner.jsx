@@ -22,7 +22,7 @@ function Spinner(props) {
         barColor="#EF4444"
         ariaLabel="circles-with-bar-loading"
       />
-      <p className="text-lg text-center px-2"><b>{props.message} 💡🙌</b></p>
+      <p className="text-lg text-center px-2"><b>{props.message}</b></p>
     </div>
   );
 }
